@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Test" parallel="methods" thread-count="6">
+
+    <test name="Chrome Tests"  >
+        <!--<parameter name="browser" value="chrome"></parameter>-->
+        <classes>
+            <class name="com.fw.extent.tests.TestCassOne"/>
+            <class name="com.fw.extent.tests.TestClassTwo"/>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
